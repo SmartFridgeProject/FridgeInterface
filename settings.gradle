@@ -1,0 +1,2 @@
+rootProject.name='FridgeTabletInterface'
+include ':app'
