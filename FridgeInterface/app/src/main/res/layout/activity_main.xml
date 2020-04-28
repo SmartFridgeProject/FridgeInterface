@@ -60,27 +60,28 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="143dp"
+        android:layout_height="95dp"
         android:text="Select User"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="566dp" />
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="359dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Preferences"
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="567dp" />
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="564dp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Settings"
-        tools:layout_editor_absoluteX="307dp"
-        tools:layout_editor_absoluteY="567dp" />
+        android:onClick="@string/title_home"
+        android:text="Unlock Drawer"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="562dp" />
 
     <TextView
         android:id="@+id/textView"
